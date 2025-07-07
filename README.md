@@ -32,7 +32,6 @@ e d). Em seguida, imprima na tela o valor da média aritmética destes 4 valores
 ```math
 M = \frac{a + b + c + d - \text{MIN}(a, b, c, d)}{3}
 ```
-<br>
 Escreva o valor desta operação com 4 casas decimais.<br><br>
 Exemplos de Entrada e Saída:<br>
 Entrada: 2.0 2.0 3.0 3.0 - Saída: 2.6667<br>
