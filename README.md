@@ -38,7 +38,10 @@ Entrada: 5.3 5.6 5.4 5.5 - Saída: 5.5000
 # Atividade 7 - RAIZ DE UMA EQUAÇÃO DO SEGUNDO GRAU
 Implemente um programa em C que leia na entrada padrão de texto três números inteiros a, b e
 c, separados por um espaço em branco. Em seguida, imprima na tela o(s) valor(es) correspondente(s) à raiz real da equação do segundo grau formada por esses números:<br>
-$`\ax^2 + bx + c = 0\`$<br>
+```math
+\ax^2 + bx + c = 0
+```
+<br>
 Sua resposta deverá estar formatada para 3 casas decimais. Se não houver raiz real, imprima
 a mensagem “NAO EXISTE RAIZ REAL”. Se houver duas raízes, imprima ambas na mesma linha,
 separadas por um espaço, em ordem crescente.<br><br>
