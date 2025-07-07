@@ -11,11 +11,18 @@ Não se esqueçam de quebrar a linha após mostrar o texto na tela!
 
 # Atividade 2 - BOM DIA, ALGUÉM!
 **Descrição:**<br>
-Implemente um programa em C que leia na entrada padrão de texto um nome de até 10 caracteres. Imprima na tela a mensagem "Bom dia, {nome}!", seguida por uma quebra de linha.
+Implemente um programa em C que leia na entrada padrão de texto um nome de até 10 caracteres. Imprima na tela a mensagem "Bom dia, {nome}!", seguida por uma quebra de linha.<br>
+
+**Exemplos de Entrada e Saída:**<br>
+Entrada: André - Saída: Bom dia, André!<br>
+Entrada: Maria Clara - Saída: Bom dia, Maria Clara!
 
 # Atividade 3 - MULTIPLICAÇÃO
 **Descrição:**<br>
-Implemente um programa em C que leia na entrada padrão um número inteiro e imprima na tela o dobro desse número.
+Implemente um programa em C que leia na entrada padrão um número inteiro e imprima na tela o dobro desse número.<br>
+
+**Exemplos de Entrada e Saída**<br>
+Entrada: 4 - Saída: 8
 
 # Atividade 4 - BINÁRIO PARA DECIMAL
 **Descrição:**<br>
@@ -42,7 +49,7 @@ e d). Em seguida, imprima na tela o valor da média aritmética destes 4 valores
 M = \frac{a + b + c + d - \text{MIN}(a, b, c, d)}{3}
 ```
 
-<br>**Instruções Complementares:**<br>
+**Instruções Complementares:**<br>
 Escreva o valor desta operação com 4 casas decimais.<br>
 
 **Exemplos de Entrada e Saída:**<br>
