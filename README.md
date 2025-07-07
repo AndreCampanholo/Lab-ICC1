@@ -29,7 +29,7 @@ Entrada: 1 -10 20 - Saída: 10
 # Atividade 6 - MÉDIA COM DESCARTE
 Implemente um programa em C que leia na entrada padrão de texto quatro números reais (a,b, c
 e d). Em seguida, imprima na tela o valor da média aritmética destes 4 valores, descartando o menor valor. Esta média pode ser representada pela fórmula abaixo:<br>
-$`\M = \frac{a + b + c + d - \text{MIN}(a, b, c, d)}{3}\`&<br>
+$`\M = \frac{a + b + c + d - \text{MIN}(a, b, c, d)}{3}\`$<br>
 Escreva o valor desta operação com 4 casas decimais.<br><br>
 Exemplos de Entrada e Saída:<br>
 Entrada: 2.0 2.0 3.0 3.0 - Saída: 2.6667<br>
@@ -38,7 +38,7 @@ Entrada: 5.3 5.6 5.4 5.5 - Saída: 5.5000
 # Atividade 7 - RAIZ DE UMA EQUAÇÃO DO SEGUNDO GRAU
 Implemente um programa em C que leia na entrada padrão de texto três números inteiros a, b e
 c, separados por um espaço em branco. Em seguida, imprima na tela o(s) valor(es) correspondente(s) à raiz real da equação do segundo grau formada por esses números:<br>
-&`\ax^2 + bx + c = 0\`&<br>
+$`\ax^2 + bx + c = 0\`$<br>
 Sua resposta deverá estar formatada para 3 casas decimais. Se não houver raiz real, imprima
 a mensagem “NAO EXISTE RAIZ REAL”. Se houver duas raízes, imprima ambas na mesma linha,
 separadas por um espaço, em ordem crescente.<br><br>
