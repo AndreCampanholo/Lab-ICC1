@@ -38,8 +38,7 @@ e d). Em seguida, imprima na tela o valor da média aritmética destes 4 valores
 ```math
 M = \frac{a + b + c + d - \text{MIN}(a, b, c, d)}{3}
 ```
-<br>
-**Instruções Complementares:**<br>
+<br>**Instruções Complementares:**<br>
 Escreva o valor desta operação com 4 casas decimais.<br><br>
 **Exemplos de Entrada e Saída:**<br>
 Entrada: 2.0 2.0 3.0 3.0 - Saída: 2.6667<br>
@@ -52,8 +51,7 @@ c, separados por um espaço em branco. Em seguida, imprima na tela o(s) valor(es
 ```math
 ax^2 + bx + c = 0
 ```
-<br>
-**Instruções Complementares:**<br>
+<br>**Instruções Complementares:**<br>
 Sua resposta deverá estar formatada para 3 casas decimais. Se não houver raiz real, imprima
 a mensagem “NAO EXISTE RAIZ REAL”. Se houver duas raízes, imprima ambas na mesma linha,
 separadas por um espaço, em ordem crescente.<br><br>
@@ -67,7 +65,7 @@ Entrada: 1 -5 6 - Saída: 2.000 3.000
 Implemente um programa em C que leia na entrada padrão de texto uma expressão aritmética e
 retorne o resultado do cálculo. A expressão deverá estar de acordo com a seguinte máscara:<br>
 [operando] [+-*/] [operando]<br><br>
-**Instruções Complementares:**<br>
+**Instruções Complementares:**
 - Você deverá utilizar o comando switch da linguagem C.
 - A entrada e saída devem ser números reais. Na saída, formate o número para 2 casas decimais apenas.
 <br><br>
