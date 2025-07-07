@@ -69,7 +69,7 @@ retorne o resultado do cálculo. A expressão deverá estar de acordo com a segu
 - Você deverá utilizar o comando switch da linguagem C.
 - A entrada e saída devem ser números reais. Na saída, formate o número para 2 casas decimais apenas.
 
-<br>**Exemplos de Entrada e Saída:**<br>
+**Exemplos de Entrada e Saída:**<br>
 Entrada: 2 + 3 - Saída: 5.00<br>
 Entrada: 4.3 / 2.5 - Saída: 1.72
 
