@@ -122,6 +122,7 @@ Imagine que você tem um tesouro (um número) escondido em algum lugar da memór
 3. Use esse mapa para encontrar o tesouro e adicionar 10 moedas de ouro (adicione 10 ao valor da variável usando apenas o ponteiro, sem utilizar variável += 10).<br>
 4. Agora, desenhe um mapa do mapa (**pp), ou seja, um ponteiro para ponteiro que leva até o ponteiro *p.<br>
 5. Use o mapa do mapa para encontrar o mapa original, e com isso, adicionar mais 10 moedas ao tesouro.<br>
+
 Ao final, o programa deve imprimir:
 - O valor inicial do tesouro (antes de qualquer adição),
 - O valor do tesouro acessado pelo mapa antes e depois da primeira adição de 10,
@@ -138,6 +139,22 @@ Valor do tesouro usando mapa : 10<br>
 Valor do tesouro usando mapa depois de adicionarmos 10 moedas : 20<br>
 Valor do tesouro usando mapa para o mapa : 20<br>
 Valor do tesouro usando mapa para o mapa depois de adicionarmos 10 moedas : 30
+
+# Atividade 12 - TROCANDO OS CANAIS
+**Descrição:**<br>
+Imagine que você tem duas televisões, cada uma sintonizada em um canal diferente. Em vez de levantar do sofá para trocar os canais manualmente, você tem dois controles remotos — um para cada TV. Esses controles não armazenam os canais em si, mas sabem exatamente onde está cada TV e permitem que você altere o canal de forma indireta.<br>
+A funçãoo Swap é um conceito comum em programação e refere-se a uma operação que troca osvalores de duas variáveis entre si. Tradicionalmente, isso é feito armazenando temporariamente o valor de uma das variáveis, copiando o valor da segunda para a primeira e, por fim, usando o valor temporário para atualizar a segunda.<br>
+Neste exercício, você irá realizar essa troca utilizando ponteiros, ou seja, usando os controles remotos que apontam para as televisões (variáveis) e operam suas configurações (valores) à distância.<br>
+1. Crie duas variáveis inteiras que representem os canais atuais de duas TVs, e peça ao usuário que digite seus valores.<br>
+2. Declare dois ponteiros que apontem para essas variáveis, simulando os controles remotos.<br>
+3. Implemente uma função void swap(int *a, int *b) que troque os canais (valores) das TVs usando apenas os controles remotos (ponteiros). Para isso, use uma variável temporária.<br>
+4. Chame a função swap() passando os ponteiros como argumentos.<br>
+5. Ao final, exiba os canais atuais de cada TV após a troca, confirmando que os controles funcionaram corretamente.
+
+**Instruções Complementares:**<br>
+- ATENÇÂO: Imprima o resultado na mesma ordem que você leu: scanf(num1, num2); ... printf(num1, num2);
+- Não esqueça de quebrar a linha.
+
 
 
 
