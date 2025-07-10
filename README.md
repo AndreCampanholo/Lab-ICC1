@@ -149,11 +149,106 @@ Neste exercício, você irá realizar essa troca utilizando ponteiros, ou seja, 
 2. Declare dois ponteiros que apontem para essas variáveis, simulando os controles remotos.<br>
 3. Implemente uma função void swap(int *a, int *b) que troque os canais (valores) das TVs usando apenas os controles remotos (ponteiros). Para isso, use uma variável temporária.<br>
 4. Chame a função swap() passando os ponteiros como argumentos.<br>
-5. Ao final, exiba os canais atuais de cada TV após a troca, confirmando que os controles funcionaram corretamente.
+5. Ao final, exiba os canais atuais de cada TV após a troca, confirmando que os controles funcionaram corretamente.<br>
 
 **Instruções Complementares:**<br>
 - ATENÇÂO: Imprima o resultado na mesma ordem que você leu: scanf(num1, num2); ... printf(num1, num2);
-- Não esqueça de quebrar a linha.
+- Não esqueça de quebrar a linha.<br>
+
+**Exemplos de Entrada e Saída:**<br>
+Entrada: -50 100 - Saída: 100 -50<br>
+Entrada: -75 150 - Saída: 150 -75
+
+# Atividade 13 - OS CARTÕES DA BIBLIOTECA
+**Descrição:**<br>
+Barbara Gordon é uma bibliotecária que frequentemente falta do trabalho por demandas no seu segundo emprego; para não perder o emprego de bibliotecária e não chamar atenção para o segundo emprego ela precisa de sua ajuda para automatizar uma parte de seu trabalho. Ela cuida de três livros com códigos únicos (por exemplo: 101, 202, 303). Ela não segura os livros diretamente, mas usa cartões especiais que dizem onde cada livro está na estante. Cada cartão é como um ponteiro: ele aponta diretamente para a variável que guarda o conteúdo do livro. Durante o dia, pessoas retiram e devolvem livros. Quando isso acontece, Barbara atualiza seus cartões para refletir a nova organização da estante. As vezes ela também precisa trocar um cartão de um livro por outro, quando os livros mudam de lugar.<br>
+Objetivo: Escreva um programa em C que simule o trabalho da bibliotecária, manipulando variáveis inteiras e ponteiros com base em ações informadas pelo usuário.<br>
+
+**Instruções Complementares:**<br>
+1. Solicite ao usuário os códigos de três livros. Armazene-os nas variáveis livro1, livro2 e livro3.<br>
+2. Crie três ponteiros, apontando inicialmente para livro1, livro2 e livro3, respectivamente.<br>
+3. Em seguida, peça ao usuário que informe uma ação para cada um dos três cartões usando números inteiros, em sequência. As ações possíveis são:
+- -1: retirar, o livro referido pelo cartão foi retirado da estante, o cartão correspondente deve ser definido como NULL.
+- 0: atualizar, o código do livro referido pelo cartão deve ser incrementado em 1.
+- 1, 2 ou 3: o livro trocou de lugar outro livro. Os cartões devem trocar os endereços entre si.
+
+4. Após processar as ações, imprima os códigos dos livros acessando-os através dos cartões. Se o ponteiro for NULL, imprima “Livro fora da estante”.<br>
+5. Processe as ações em ordem, considerando acesso apenas pelos cartões.<br>
+
+**Exemplos de Entrada e Saída:**<br>
+Entrada: 101 202 303<br>
+-1<br>
+3<br>
+2<br>
+Saída:<br> 
+cartao1 -> Livro fora da estante<br>
+cartao2 -> 303<br>
+cartao3 -> 203<br>
+Neste exemplo os eventos foram (1) Livro referido pelo cartão 1 foi retirado, (2) Livro referido pelo cartão 2 trocou de lugar com cartão 3, (3) livro referido pelo cartão 3 teve seu código atualizado.
+
+# Atividade 14 - AQUI, NADA É TEMPORÁRIO!
+**Descrição:**<br>
+Gandalf decidiu brincar com o psicológico da raça Hobbit novamente. O cinzento disse que ninguém irá passar pela Ponte do Brandevin, salvo aqueles que alternarem de lugar discretamente, sem que o velho mago perceba. Para isso que isso seja possível, um Hobbit deve trocar de lugar com outro, do outro lado da ponte. Essa troca precisa ser muito discreta, ou seja, não poderá ser utilizado um espantalho no processo.<br>
+Objetivo: Troque os valores apontados por dois ponteiros entre si de forma discreta, ou seja, sem utilizar uma variável temporária auxiliar. Para isso, você deverá utilizar apenas aritmética de ponteiros e operações básicas.<br>
+
+**Instruções Complementares:**<br>
+1. Aloque dois inteiros dinamicamente usando malloc.<br>
+2. Leia dois números valores para esses inteiros.<br>
+3. Troque os valores usando apenas ponteiros (i.e., sem variáveis temporárias!).<br>
+4. Imprima os valores antes e depois da troca.<br>
+5. Libere a memória alocada.<br>
+
+**Exemplos de Entrada e Saída:**<br>
+Entrada: 115 -67<br>
+Saída: 115 -67<br>
+-67 115
+
+# Atividade 15 - FATORIAL, MAS NEM TANTO!
+**Descrição:**<br>
+Rochele estava entendiada e decidiu atormentar a sua irmã Lisa, que estava aprendendo a programar. Rochele lançou um desafio: duvido que, dado um número n, você consegue calcular o resultado da soma de 1! com as divisões de 1 pelos fatoriais seguintes, alternando entre valores positivos e negativos, começando por um positivo, 1/2! nesse caso. Lisa entendeu nada e pediu para Rochele deixar de ser prolixa e escrever a fórmula, a qual é descrita no objetivo abaixo.<br>
+Objetivo: Escreva um programa em C que calcule o resultado da seguinte sequência para n termos:
+```math
+S = 1+1/2! - 1/3! + 1/4! - 1/5! + ... ± 1/n!
+```
+
+**Instruções Complementares:**<br>
+1. Solicite ao usuário informe o valor de n (n > 0).<br>
+2. Use apenas for/while, if/else e operações matemáticas.<br>
+3. Calcule o fatorial (!) dentro do laço de repetição.<br>
+4. Respeite a precedência de operadores para alternar entre + е -.<br>
+
+**Exemplos de Entrada e Saída:**<br>
+Entrada: 78 - Saída: 1.367879
+
+# Atividade 16 - A SEÇÃO DOS LIVROS MISTERIOSOS
+**Descrição:**<br>
+Letícia e João Pedro estão arrumando a biblioteca mágica da escola. Lá, existe uma regra muito estranha: livros só podem entrar na Seção dos Livros Misteriosos se seus títulos forem palíndromos — ou seja, se puderem ser lidos da mesma forma da esquerda para a direita e da direita para a esquerda!<br>
+Porém, um livro foi encontrado com o título completamente bagunçado: as letras do título foram embaralhadas! Letícia e João Pedro precisam da sua ajuda para descobrir se é possível reorganizar essas letras formando um palíndromo válido.<br>
+Sabendo de suas habilidades de programação eles pediram sua ajuda para determinar se o livro pertence à Seção dos Livros Misteriosos.
+
+**Instruções Complementares:**<br>
+- Na primeira linha será dado um inteiro N (1 ≤ N ≤ 10<sup>9</sup>) que representa a quantidade de caracteres do título do livro. Na próxima linha será dado o nome do livro de forma embaralhada.
+- E garantido que os caracteres são todos minúsculos.
+
+**Exemplos de Entrada e Saída:**<br>
+Entrada: 4 anna - Saída: Sim<br>
+Entrada: 4 anaa - Saída: Nao
+
+# Atividade 17 - O MÊS DA PRÉ-VENDA
+**Descrição:**<br>
+Uma loja de jogos registrou no último mês de maio o número de pré-vendas reservadas para o console Nintendo Switch 2 em cada dia do mês. Implemente um programa em C que leia na entrada padrão de texto um número natural para cada dia do mês de maio. Em seguida, imprima na tela a quantidade vendida no melhor dia de vendas. Após isso, imprima o dia com maior número de reservas. Caso mais de um dia tenha registrado o melhor número de reservas, você deve imprimir todos os dias, um em cada linha, ordenados do menor para o maior.<br>
+Note que o mês de maio tem 31 dias. A quantidade vendida será informada na ordem de dias, começaando no dia 1º ao dia 31.<br>
+
+**Exemplos de Entrada e Saída:**<br>
+Entrada: 5 10 15 20 15 10 5 2 3 4 5 6 7 8 9 12 13 14 15 16 17 30 21 23 12 6 3 8 7 4 2<br>
+Saída: 30 22<br>
+Entrada: 1 2 3 4 5 6 7 8 9 9 8 7 6 5 4 3 2 1 1 2 3 4 5 6 7 8 9 0 1 2 3<br>
+Saífa: 9 9 10 27
+
+
+
+
+
 
 
 
