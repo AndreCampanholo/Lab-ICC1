@@ -201,7 +201,7 @@ Objetivo: Troque os valores apontados por dois ponteiros entre si de forma discr
 **Exemplos de Entrada e Saída:**<br>
 Entrada: 115 -67<br>
 Saída: 115 -67<br>
--67 115
+       -67 115
 
 # Atividade 15 - FATORIAL, MAS NEM TANTO!
 **Descrição:**<br>
@@ -243,7 +243,7 @@ Note que o mês de maio tem 31 dias. A quantidade vendida será informada na ord
 Entrada: 5 10 15 20 15 10 5 2 3 4 5 6 7 8 9 12 13 14 15 16 17 30 21 23 12 6 3 8 7 4 2<br>
 Saída: 30 22<br>
 Entrada: 1 2 3 4 5 6 7 8 9 9 8 7 6 5 4 3 2 1 1 2 3 4 5 6 7 8 9 0 1 2 3<br>
-Saífa: 9 9 10 27
+Saída: 9 9 10 27
 
 
 
