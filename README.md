@@ -179,7 +179,7 @@ Objetivo: Escreva um programa em C que simule o trabalho da bibliotecária, mani
 Entrada: 101 202 303<br>
 -1<br>
 3<br>
-2<br>
+0<br>
 Saída:<br> 
 cartao1 -> Livro fora da estante<br>
 cartao2 -> 303<br>
