@@ -143,7 +143,7 @@ Valor do tesouro usando mapa para o mapa depois de adicionarmos 10 moedas : 30
 # Atividade 12 - TROCANDO OS CANAIS
 **Descrição:**<br>
 Imagine que você tem duas televisões, cada uma sintonizada em um canal diferente. Em vez de levantar do sofá para trocar os canais manualmente, você tem dois controles remotos — um para cada TV. Esses controles não armazenam os canais em si, mas sabem exatamente onde está cada TV e permitem que você altere o canal de forma indireta.<br>
-A função Swap é um conceito comum em programação e refere-se a uma operação que troca osvalores de duas variáveis entre si. Tradicionalmente, isso é feito armazenando temporariamente o valor de uma das variáveis, copiando o valor da segunda para a primeira e, por fim, usando o valor temporário para atualizar a segunda.<br>
+A função Swap é um conceito comum em programação e refere-se a uma operação que troca os valores de duas variáveis entre si. Tradicionalmente, isso é feito armazenando temporariamente o valor de uma das variáveis, copiando o valor da segunda para a primeira e, por fim, usando o valor temporário para atualizar a segunda.<br>
 Neste exercício, você irá realizar essa troca utilizando ponteiros, ou seja, usando os controles remotos que apontam para as televisões (variáveis) e operam suas configurações (valores) à distância.<br>
 1. Crie duas variáveis inteiras que representem os canais atuais de duas TVs, e peça ao usuário que digite seus valores.<br>
 2. Declare dois ponteiros que apontem para essas variáveis, simulando os controles remotos.<br>
