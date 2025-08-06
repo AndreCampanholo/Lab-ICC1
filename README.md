@@ -208,7 +208,7 @@ Saída: 115 -67<br>
 Rochele estava entendiada e decidiu atormentar a sua irmã Lisa, que estava aprendendo a programar. Rochele lançou um desafio: duvido que, dado um número n, você consegue calcular o resultado da soma de 1! com as divisões de 1 pelos fatoriais seguintes, alternando entre valores positivos e negativos, começando por um positivo, 1/2! nesse caso. Lisa entendeu nada e pediu para Rochele deixar de ser prolixa e escrever a fórmula, a qual é descrita no objetivo abaixo.<br>
 Objetivo: Escreva um programa em C que calcule o resultado da seguinte sequência para n termos:
 ```math
-S = 1+1/2! - 1/3! + 1/4! - 1/5! + ... ± 1/n!
+S = 1 + 1/2! - 1/3! + 1/4! - 1/5! + ... ± 1/n!
 ```
 
 **Instruções Complementares:**<br>
